@@ -101,7 +101,7 @@ Input (150×150×1)
 ```
 modelagem_comp_2/
 ├── app.py                                          # Streamlit dashboard application
-├── pneumonia-detection-using-cnn-92-6-accuracy.ipynb  # Training notebook
+├── pneumonia-detection.ipynb  # Training notebook
 ├── pneumonia_cnn_model.keras                       # Saved trained model
 ├── requirements.txt                                # Python dependencies
 └── README.md                                       # This file
@@ -144,7 +144,7 @@ modelagem_comp_2/
 
 ### Training the Model (Jupyter Notebook)
 
-Open and run `pneumonia-detection-using-cnn-92-6-accuracy.ipynb` in Jupyter or VS Code. The notebook will:
+Open and run `pneumonia-detection.ipynb` in Jupyter or VS Code. The notebook will:
 1. Download the dataset automatically via `kagglehub`
 2. Preprocess and augment the images
 3. Train the CNN for 12 epochs
